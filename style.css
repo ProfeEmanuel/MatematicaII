@@ -1,7 +1,86 @@
-body{
-    background-color: #151616;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-header{
+
+body{
+    background-image: linear-gradient(#000000, #1B4646);
+}
+
+.cabecalho {
     background-color: #234A4D;
     color: #EBFF00;
+    display: flex;
+    justify-content:space-around;
+    padding: 10px 0;
+}
+
+.cabecalho-logo {
+    width: 10%;
+
+}
+
+.cabecalho-item {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-style: italic;
+}
+.corpo-pagina{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.corpo-texto{
+    width: 50%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+h2 {
+    padding: 10px;
+    margin-left: 10px;
+}
+.corpo {
+    color: white;
+}
+
+.imagem-corpo{ 
+    width: 40%;
+}
+
+.rodape {
+    background-color: rgb(30, 49, 47);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    
+}
+
+.imagem-rodape {
+    display: grid;
+    grid-template-columns: 50%;
+    width: 20%;
+    margin-left: 80px;
+    display: inline-block;
+    justify-content: space-around;
+    margin-inline: 150px;
+    margin-block: 50px;
+    
+}
+
+.creditos{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    margin: -10px;
+    padding: -1000px;
 }
